@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { storeData } from '../Redux/userSlice';
-import { ProtectRequest, publicRequest } from './axiosPage';
+import { publicRequest } from './axiosPage';
 
 // Builds FormData from a plain object, skipping undefined/null values.
 function toFormData(obj) {
